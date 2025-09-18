@@ -1,0 +1,20 @@
+{
+  "animais": [
+    { "id": "A1", "nome": "Leão", "especie": "Panthera leo", "imagem": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Lion_%28Panthera_leo%29_male_6y.jpg" },
+    { "id": "A2", "nome": "Elefante", "especie": "Loxodonta africana", "imagem": "https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg" },
+    { "id": "A3", "nome": "Pinguim Imperador", "especie": "Aptenodytes forsteri", "imagem": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Emperor_penguin_chick_and_adult.jpg" },
+    { "id": "A4", "nome": "Girafa", "especie": "Giraffa camelopardalis", "imagem": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Giraffe_standing.jpg" }
+  ],
+  "livros": [
+    { "id": "L1", "titulo": "O Senhor dos Anéis", "autor": "J.R.R. Tolkien", "ano": 1954, "capa": "https://upload.wikimedia.org/wikipedia/en/8/8e/The_Lord_of_the_Rings_cover.gif" },
+    { "id": "L2", "titulo": "1984", "autor": "George Orwell", "ano": 1949, "capa": "https://upload.wikimedia.org/wikipedia/en/c/c3/1984first.jpg" },
+    { "id": "L3", "titulo": "Dom Quixote", "autor": "Miguel de Cervantes", "ano": 1605, "capa": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Don_Quixote_book.jpg" },
+    { "id": "L4", "titulo": "Fahrenheit 451", "autor": "Ray Bradbury", "ano": 1953, "capa": "https://upload.wikimedia.org/wikipedia/en/d/db/Fahrenheit_451_1st_ed_cover.jpg" }
+  ],
+  "pessoas": [
+    { "id": "P1", "nome": "Marie Curie", "nascimento": "1867-11-07", "area": "Física e Química", "foto": "https://source.unsplash.com/random/300x200/?scientist,woman" },
+    { "id": "P2", "nome": "Albert Einstein", "nascimento": "1879-03-14", "area": "Física", "foto": "https://source.unsplash.com/random/300x200/?scientist,man" },
+    { "id": "P3", "nome": "Ada Lovelace", "nascimento": "1815-12-10", "area": "Matemática e Computação", "foto": "https://source.unsplash.com/random/300x200/?vintage,woman,computer" },
+    { "id": "P4", "nome": "Isaac Newton", "nascimento": "1643-01-04", "area": "Física e Matemática", "foto": "https://source.unsplash.com/random/300x200/?vintage,scientist" }
+  ]
+}

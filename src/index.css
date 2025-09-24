@@ -1,73 +1,71 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 1;
-    font-family: Inter, system-ui, Arial, sans-serif;
-    scroll-behavior: smooth;
-    box-shadow: #000000;
-  }
-  
-  body {
-    background: #ffffff;
-    color: #000000;
-  }
-  
-  .app-container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 1rem;
-  }
-  
-  .card-img {
-    width: 220px;
-    height: 140px;
-    object-fit: cover;
-    border-radius: 6px;
-  }
-  
-  .card {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    border-radius: 8px;
-    margin: 0.5rem;
-    min-width: 260px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    transition: transform 0.2s, box-shadow 0.2s; /* Animação ao hover */
-  }
-  
-  .card:hover {
-    transform: translateY(-5px); /* Leve elevação ao passar o mouse */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
-  }
-  
-  
-  .grid {
-    display: flex;
-    gap: 1,5rem;
-    justify-content: lef;
-  }
-  
-  nav a {
-    color: #ffffff;
-    text-decoration: none;
-    margin-right: 2rem;       /* Use espaçamento relativo mais comum */
-    padding: 0.5rem 1rem;     /* Dá mais “clique” e conforto */
-    font-weight: 500;         /* Texto mais moderno e legível */
-    border-radius: 0.5rem;    /* Bordas levemente arredondadas */
-    transition: background 0.3s, color 0.3s; /* Transição suave */
-  }
-  
-  nav a:hover {
-    background-color: rgba(218, 218, 218, 0.2); /* Hover sutil */
-    color: #ffffff;                             /* Mudança de cor no hover */
-  }
-  
-  button {
-    cursor: pointer;
-    padding: 0.5rem 0.9rem;
-    border-radius: 10px;
-    border: none;
-    background: #000000;
-    color: white;
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1;
+  font-family: Inter, system-ui, Arial, sans-serif;
+  scroll-behavior: smooth;
+  box-shadow: #000000;
+}
+
+body {
+  background: #ffffff;
+  color: #000000;
+}
+
+.app-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.card-img {
+  width: 220px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 0.5rem;
+  min-width: 260px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.2s, box-shadow 0.2s; /* Animação ao hover */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Leve elevação ao passar o mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+.grid {
+  display: flex;
+  gap: 1, 5rem;
+  justify-content: lef;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 2rem; /* Use espaçamento relativo mais comum */
+  padding: 0.5rem 1rem; /* Dá mais “clique” e conforto */
+  font-weight: 500; /* Texto mais moderno e legível */
+  border-radius: 0.5rem; /* Bordas levemente arredondadas */
+  transition: background 0.3s, color 0.3s; /* Transição suave */
+}
+
+nav a:hover {
+  background-color: rgba(218, 218, 218, 0.2); /* Hover sutil */
+  color: #ffffff; /* Mudança de cor no hover */
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 0.9rem;
+  border-radius: 10px;
+  border: none;
+  background: #000000;
+  color: white;
+}
